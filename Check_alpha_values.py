@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import os
 
 image_path = input("Input the image directory : ")
 image = np.array(Image.open(image_path).convert("RGBA"))
